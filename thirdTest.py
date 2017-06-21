@@ -1,6 +1,9 @@
 #  a method is different from a function in a sense that it can
-#  only be called from within a class by the help of an object
-class Human():
+#  only be called from within a class by the help of an object.
+#  A Method is a function associated with a class.
+
+
+class Human:
     def __init__(self, name, gender):
         self.name = name
         self.gender = gender
