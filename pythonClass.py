@@ -11,7 +11,7 @@ class Employee:
     #  NOTE: Class variables can only be access through the class, or an instance of it. E
     #  Example: Employee.raise_amount or self.raise_amount/emp_1.raise_amount/emp_2.raise_amount
 
-    def __init__(self, first, last, pay):
+    def __init__ (self, first, last, pay):
         #  __init__ method is basically a constructor.
         self.first = first
         self.last = last
